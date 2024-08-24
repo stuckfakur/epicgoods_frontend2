@@ -33,7 +33,7 @@ export const _WhyEpicGoods = (props: Props) => {
     return (
         <div className="w-full h-[400px] relative flex justify-center">
             <div className="grid">
-                <div className="bg-white py-4 px-6 rounded-lg">
+                <div className="bg-white py-4 px-6 rounded-lg text-center text-xl">
                     Kenapa harus Epic Goods ?
                 </div>
                 <div className="grid grid-cols-3 grid-row-1 gap-3">

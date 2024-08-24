@@ -40,8 +40,8 @@ export default function __Navbar() {
         <nav className="sticky top-0 z-20 w-full ">
             <div className="w-full h-[20px] bg-slate-100 flex justify-end flex-nowrap gap-2 px-10 text-sm">
                 {links && (
-                    links.map(item => (
-                        <Link key={item.name} href={item.url} className="text-slate-400 hover:text-black"> {item.name} </Link>
+                    links.map((item, index) => (
+                        <Link key={index} href={item.url} className="text-slate-400 hover:text-black"> {item.name} </Link>
                     ))
                 )}
             </div>
